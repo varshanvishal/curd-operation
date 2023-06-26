@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="javascp.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="addbutton"  onclick="myfunction()"> add details</button>
+    <div id="diplays" style="display: none;">
+        <label for="name">NAME:</label>
+        <input type="text" id="name" style="outline: none;"><div id="ress"></div>
+        <br>
+        <label for="number">NUMBER:</label>
+        <input type="number" id="number">
+        <br><br>
+        <label for="email">EMAIL:</label>
+        <input type="email" id="email">
+        <br><br>
+        <button  onclick="emp()" value="Add" id="hlo">Add Employee Details</button>
+                <h4 style="text-align: center;">Employee Record</b></h4>
+                <center>
+                 <table id="tableData" border="1" cellpadding="2">
+                  <tr>
+                   <th><b>Name</b></th>
+                   <th><b>Number</b></th>
+                   <th><b>Email Id</b></th>
+                   <th><b> action</b></th>
+                  </tr>
+                 </table>
+                </center>
+        </div>
+</body>
+</html>
